@@ -1,0 +1,43 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: lightblue;
+    color: #525252;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.header {
+    margin-top: 15px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
+.clock {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.time-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: rgba(56, 56, 255, 0.137); 
+    font-weight: bold;
+}
+
+.ampm {
+    position: relative;
+    top: 15px;
+    text-decoration: underline;
+}
+
+.contact-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
